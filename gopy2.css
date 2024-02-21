@@ -1,0 +1,163 @@
+.header_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+   
+    margin-left: 200px;
+  }
+  
+  .logo img {
+    max-width: 100%;
+  }
+  
+  .log_sig {
+    display: flex; 
+    gap: 10px;
+    margin-right:200px;
+  }
+  
+  .log,
+  .sig {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    width: 154px;
+    height: 44px;
+    border: 3px solid #5B7DF5;
+    border-radius: 30px;
+    font-size: 20px;
+    color: #5B7DF5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .log:hover,
+  .sig:hover {
+    background-color: #5B7DF5;
+    color:#FDFDFD;
+  }
+  
+  .header_2 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .menu {
+   
+    margin-top: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    height: 60px;
+    width: 100%;
+    background-color: #FDD042;
+   
+     display: flex;
+     justify-content: center;
+     gap: 40px;
+     
+  }
+  
+  .menu a {
+    
+    text-decoration: none;
+   color: #373737;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    
+  }
+
+  
+  .menu a:hover {
+    color: #5d8e5a;
+    font-size: 28px;
+  }
+  .gopy a{
+    background-color: #5B7DF5;
+    color: #FDFDFD !important;
+  }
+  .tieudegopy{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tieude{
+    text-align: center;
+    margin-left: 16px;
+    margin-right: 16px;
+    color: #F25FAB;
+    font-size: 70px;
+    font-weight: 600;
+  }
+  .gopy1{
+    width: 1100px;
+    height: 200px;
+    background-color: #B5E9FF;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .gopycosan{
+    display: flex;
+    justify-content: center;
+  }
+  .noidunggopy{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 750px;
+    margin-left: 16px;
+  }
+  .gopycuaban{
+   
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  #themgopy{
+    color: #373737;
+     font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+#feedback{
+  background-color: #FDFDFD;
+  width: 1100px;
+  border-radius: 6px;
+  font-size: 20px;
+  border-width: 1px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.footer{
+  color: #F8F8F8;
+  background-color: #5B7DF5;
+  height: 120px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.truong{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.diachi{
+  font-size: 16px;
+}
+.thongtinfooter{
+ text-align: center;
+}

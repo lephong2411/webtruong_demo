@@ -1,0 +1,231 @@
+.header_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+   
+    margin-left: 200px;
+  }
+  
+  .logo img {
+    max-width: 100%;
+  }
+  
+  .log_sig {
+    display: flex; 
+    gap: 10px;
+    margin-right:200px;
+  }
+  
+  .log,
+  .sig {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    width: 154px;
+    height: 44px;
+    border: 3px solid #5B7DF5;
+    border-radius: 30px;
+    font-size: 20px;
+    color: #5B7DF5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .log:hover,
+  .sig:hover {
+    background-color: #5B7DF5;
+    color:#FDFDFD;
+  }
+  
+  .header_2 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .menu {
+   
+    margin-top: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    height: 60px;
+    width: 100%;
+    background-color: #FDD042;
+   
+     display: flex;
+     justify-content: center;
+     gap: 40px;
+     
+  }
+  
+  .menu a {
+    
+    text-decoration: none;
+   color: #373737;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    
+  }
+
+  
+  .menu a:hover {
+    color: #5d8e5a;
+    font-size: 28px;
+  }
+  .gioithieu a {
+    background-color: #5B7DF5;
+    color: #FDFDFD !important;
+  }
+  #title1{
+    width: 540px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #373737;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    }
+  #title2{
+    width: 540px;
+    font-size: 22px;
+    
+  }
+  .thongtinlienhe{
+    float: left;
+    margin-left: 400px;
+    margin-top: 50px;
+  }
+  .guilienhe{
+    display: block;
+  }
+  .guilienhe_thongtin{
+    display: block;
+
+  }
+  .guilienhe_thongtin div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    width: 540px;
+  }
+  .guilienhe_thongtin div input{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 540px;
+    margin-top: 16px;
+    border-radius: 4px;
+  }
+  #hovaten input{
+    height: 56px;
+    background-color: #F3F3F3;
+    font-size: 20px;
+  }
+  #email input{
+    height: 56px;
+    background-color: #F3F3F3;
+    font-size: 20px;
+  }
+  #dienthoai input{
+    height: 56px;
+    background-color: #F3F3F3;
+    font-size: 20px;
+  }
+  #noidung textarea{
+    height: 150px;
+    background-color: #F3F3F3;
+    font-size: 20px;
+    height: 156px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 540px;
+    margin-top: 16px;
+    border-radius: 4px;
+  }
+  #noidung input{
+    line-break: auto;
+  }
+  #guilienhe{
+
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #5B7DF5;
+    width: 540px;
+    height: 56px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+  }
+  #guilienhe a{
+    text-decoration: none;
+    color: #F3F3F3;
+      }
+  #guilienhe:hover{
+   background-color: #6785f2;
+  }
+  .thongtindiachi{
+    float: right;
+    margin-right: 400px;
+    margin-top: 100px;
+    width: 510px;
+    height: 532px;
+    background-color: #5B7DF5;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .thongtindiachi_bando iframe {
+    width: 366px;
+    height: 350px;
+    border-radius: 6px;
+    
+  }
+  .thongtindiachi_bando iframe:hover {
+    width: 666px;
+    height: 650px;
+    border-radius: 6px;
+    transition: .2s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+  }
+  .thongtindiachi_diachi{
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #FDFDFD;
+  }
+  .footer{
+    position: absolute;
+    top: 800px;
+    width: 100%;
+    margin-top: 50px;
+    clear: both;
+    color: #F8F8F8;
+    background-color: #5B7DF5;
+    height: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+
+  .truong{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+  .diachi{
+    font-size: 16px;
+  }
+  .thongtinfooter{
+   text-align: center;
+  }

@@ -1,0 +1,255 @@
+
+.header_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+   
+    margin-left: 200px;
+  }
+  
+  .logo img {
+    max-width: 100%;
+  }
+  
+  .log_sig {
+    display: flex; 
+    gap: 10px;
+    margin-right:200px;
+  }
+  
+  .log,
+  .sig {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    width: 154px;
+    height: 44px;
+    border: 3px solid #5B7DF5;
+    border-radius: 30px;
+    font-size: 20px;
+    color: #5B7DF5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .log:hover,
+  .sig:hover {
+    background-color: #5B7DF5;
+    color:#FDFDFD;
+  }
+  
+  .header_2 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .menu {
+   
+    margin-top: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    height: 60px;
+    width: 100%;
+    background-color: #FDD042;
+   
+     display: flex;
+     justify-content: center;
+     gap: 40px;
+     
+  }
+  
+  .menu a {
+    
+    text-decoration: none;
+   color: #373737;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    
+  }
+
+  
+  .menu a:hover {
+    color: #5d8e5a;
+    font-size: 28px;
+  }
+  .trangchu a{
+    background-color: #5B7DF5;
+    color: #FDFDFD !important;
+  }
+  .article{
+    float: left;
+    margin-left: 350px;
+    margin-top: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #373737;
+
+  }
+  .article_text1{
+    font-size: 44px;
+    font-weight: 600;
+    margin: 16px;
+
+  }
+.article_text2{
+  font-size: 90px;
+  font-weight: 700  ;
+  margin: 16px;
+}
+.article_text3{
+  font-size: 20px;
+  float: right;
+  margin: 10px;
+}
+.article_text4{
+  clear: both;
+  font-size: 20px;
+  float: right;
+  right: 0;
+}
+.aside{
+  float: right;
+  margin-right: 350px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+ 
+}
+.aside_img{
+  display: flex;
+
+}
+.totnghiep{
+
+  width: 220px;
+  height: 160px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #F8F8F8;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+ 
+}
+.tyle{
+  font-size: 20px;
+  color: #5B7DF5;
+  font-weight: 500;
+  
+ 
+}
+.so{
+  font-size: 36px;
+  font-weight: 600;
+  color: #e7bd35;
+  display: flex;
+  
+}
+.icon{
+  display: flex;
+  justify-content: center;
+  
+}
+.totnghiep div{
+  display: flex;
+  justify-content: center;
+
+  
+}
+.thanhtich{
+  clear: both;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+
+ 
+}
+hr{
+  border-width: 2px;
+ margin-bottom: 20px;
+}
+.body2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+.content_tieude{
+  width: 1100px;
+  height: 64px;
+  border-radius: 6px;
+  color: #F8F8F8;
+  background-color: #5B7DF5;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:50px;
+}
+.content1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1100px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  color: #373737;
+  margin-top: 20px;
+}
+.content1_noidung{
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 40px;
+
+
+}
+.content1_tieude{
+  font-size: 26px;
+  font-weight: 600;
+  
+}
+.content1_nho{
+  font-size: 22px;
+ margin-top: 16px;
+ height: 200px;
+ overflow-y: scroll;
+}
+.content1 img{
+  width: 340px;
+  border-radius: 16px;
+}
+
+.footer{
+  color: #F8F8F8;
+  background-color: #5B7DF5;
+  height: 120px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.truong{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.diachi{
+  font-size: 16px;
+}
+.thongtinfooter{
+ text-align: center;
+}

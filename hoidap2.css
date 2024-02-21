@@ -1,0 +1,205 @@
+.header_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+   
+    margin-left: 200px;
+  }
+  
+  .logo img {
+    max-width: 100%;
+  }
+  
+  .log_sig {
+    display: flex; 
+    gap: 10px;
+    margin-right:200px;
+  }
+  
+  .log,
+  .sig {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    width: 154px;
+    height: 44px;
+    border: 3px solid #5B7DF5;
+    border-radius: 30px;
+    font-size: 20px;
+    color: #5B7DF5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .log:hover,
+  .sig:hover {
+    background-color: #5B7DF5;
+    color:#FDFDFD;
+  }
+  
+  .header_2 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .menu {
+   
+    margin-top: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    height: 60px;
+    width: 100%;
+    background-color: #FDD042;
+   
+     display: flex;
+     justify-content: center;
+     gap: 40px;
+     
+  }
+  
+  .menu a {
+    
+    text-decoration: none;
+   color: #373737;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    
+  }
+
+  
+ .menu a:hover {
+    color: #5d8e5a;
+    font-size: 28px;}
+    
+.gioithieu a {
+        background-color: #5B7DF5;
+        color: #FDFDFD !important;
+      }
+.hoidap_title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+.hoidap_titile_tieude{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 70px;
+  color: #F25FAB;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.wrap_hoivadap{
+  display: flex;
+  justify-content: center;
+}
+.hoidap_hoivadap{
+  width: 1200px;
+}
+.hoidap_hoivadap_hoi{
+    width: 1200px;
+    height: 246px;
+    background-color: #EEEEEE;
+    border-radius: 6px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hoidap_hoivadap_hoi_nguoihoi{
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  
+}
+.hoidap_hoidap_nguoihoi{
+  margin-left: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.hoidap_hoidap_ten{
+  font-weight: 600;
+  font-size: 22px;
+}
+.hoidap_hoidap_cauhoi{
+  font-size: 22px;
+  margin-top: 2px;
+}
+.hoidap_hoivadap_dap{
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+}
+.hoidap_hoidap_caudap{
+  margin-left: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+.hoidap_hoidap_truong{
+  font-weight: 600;
+}
+.hoidap_hoivadap_datcauhoi {
+  width: 1200px;
+  
+}
+.hoidap_hoivadap_datcauhoi textarea{
+  background-color: #f4f3f3;
+  width: 1200px;
+  height: 150px;
+  border-radius: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+.butom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 140px;
+  height: 50px;
+  background-color: #5B7DF5;
+  float: right;
+  margin-bottom: 50px;
+}
+.butom a{
+  color: #FDFDFD;
+font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  text-decoration: none;}
+  .butom:hover{
+    background-color: #7e96ee;
+  }
+  .footer{
+    color: #F8F8F8;
+    background-color: #5B7DF5;
+    height: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .truong{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+  .diachi{
+    font-size: 16px;
+  }
+  .thongtinfooter{
+   text-align: center;
+  }
