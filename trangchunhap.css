@@ -236,6 +236,16 @@ hr{
   font-weight: 600;
   
 }
+.content1_tieude a{
+    font-size: 26px;
+    font-weight: 600;
+    color: #373737;
+    text-decoration: none;
+  }
+  .content1_tieude a:hover{
+    color: #5B7DF5;
+    
+  }
 .content1_nho{
   font-size: 22px;
  margin-top: 16px;
